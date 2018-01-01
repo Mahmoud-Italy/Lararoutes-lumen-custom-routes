@@ -71,7 +71,7 @@ Just create new function authResource in Lararoutes\Lumen\CustomRoutes.php
       $this->app->post($uri.'/login', $controller.'@login');
       $this->app->post($uri.'/logout', $controller.'@logout');
       $this->app->post($uri.'/refresh', $controller.'@refresh');
-      $this->app->post($uri.'/me', $controller.'@me');
+      $this->app->get($uri.'/me', $controller.'@me');
     }
 </pre>
 You are welcome :)
