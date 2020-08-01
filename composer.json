@@ -17,13 +17,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Lararoutes\\Lumen\\CustomRoutes\\CustomRoutesServiceProvider"
+                "Lararoutes\\Lumen\\CustomRoutesServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Lararoutes\\Lumen\\CustomRoutes\\": "src/"
+            "Lararoutes\\Lumen\\": "src/"
         }
     }
 }

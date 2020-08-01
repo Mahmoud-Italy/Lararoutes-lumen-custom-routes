@@ -1,6 +1,6 @@
 <?php
 
-namespace Lararoutes\Lumen\CustomRoutes;
+namespace Lararoutes\Lumen;
 
 class CustomRoutes
 {
