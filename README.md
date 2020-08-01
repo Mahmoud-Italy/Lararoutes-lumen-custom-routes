@@ -44,7 +44,7 @@ However, you can also custom your routes as much as u want in Lararoutes\Lumen\C
         $this->app->put($uri.'/{id}', $controller.'@update');
         $this->app->delete($uri.'/{id}', $controller.'@destroy');
 
-        // feel free to add more
+        // feel free to add more..
 
     }
 </pre>
