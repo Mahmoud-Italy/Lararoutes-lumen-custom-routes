@@ -1,6 +1,6 @@
 {
     "name": "lararoutes/lumen-custom-routes",
-    "description": "A Simple Lumen package to help you customize your routes apiResources.",
+    "description": "Lumen package to help you customize your routes apiResources.",
     "type": "library",
     "license": "MIT",
     "authors": [
