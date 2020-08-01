@@ -6,8 +6,7 @@
 ![lumen-custom-routes](assets/background.png)
 
 Lumen package to help you customize your routes apiResources.<br/>
-Specialize for whom using lumen, if you don't you better do now ^^ <br/>
-Lumen is stunningly micro-framework Faster 4x than laravel.
+Specialize for whom using lumen, if you don't you better do now ^_^, Lumen is stunningly micro-framework Faster 4x than laravel.
 
 # Installation
 <pre>composer require lararoutes/lumen-custom-routes</pre>
