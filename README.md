@@ -1,4 +1,7 @@
 # Lumen Custom Routes
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Mahmoud-Italy/Lararoutes-lumen-custom-routes/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Mahmoud-Italy/Lararoutes-lumen-custom-routes/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/Mahmoud-Italy/Lararoutes-lumen-custom-routes/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Mahmoud-Italy/Lararoutes-lumen-custom-routes/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/Mahmoud-Italy/Lararoutes-lumen-custom-routes/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 ![lumen-custom-routes](assets/background.png)
 
