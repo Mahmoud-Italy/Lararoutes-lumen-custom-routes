@@ -5,7 +5,7 @@
 
 ![lumen-custom-routes](assets/background.png)
 
-A Simple Lumen package to help you customize your routes apiResources.
+Lumen package to help you customize your routes apiResources.<br/>
 Specialize for whom using lumen, if you don't you better do now ^^ <br/>
 Lumen is stunningly micro-framework Faster 4x than laravel.
 
