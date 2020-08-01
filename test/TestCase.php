@@ -1,6 +1,6 @@
 <?php
 
-namespace Lararoute\Lumen\CustomeRoutes\Tests;
+namespace Lararoute\Lumen\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

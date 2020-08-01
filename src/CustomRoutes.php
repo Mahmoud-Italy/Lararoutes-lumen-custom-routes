@@ -11,7 +11,7 @@ class CustomRoutes
       $this->app = $router;
     }
       
-    function apiResoruce($uri, $controller)
+    function apiResource($uri, $controller)
     {
       $this->app->get($uri, $controller.'@index');
       $this->app->post($uri, $controller.'@store');
