@@ -5,16 +5,19 @@
 
 ![lumen-custom-routes](assets/background.png)
 
-Lumen package to help you customize your routes apiResources.<br/>
-Specialize for whom using lumen, if you don't you better do now ^_^, Lumen is stunningly micro-framework Faster 4x than laravel.
+Lumen package to help you customize your routes as much as u want.
+Specialize for whom using lumen, <br/>
+If you don't you better do now, Lumen is stunningly micro-framework Faster 4x than laravel.
 
 # Installation
 <pre>composer require lararoutes/lumen-custom-routes</pre>
 
 # Usage
-Add this line in top of routes/web.php
-<pre>use Lararoutes\Lumen\CustomRoutes;</pre>
-<pre>$app = new CustomRoutes($router);</pre>
+Add those lines in top of routes/web.php
+<pre>
+  use Lararoutes\Lumen\CustomRoutes;
+  $app = new CustomRoutes($router);
+</pre>
 
 That's it. done
 
@@ -31,7 +34,7 @@ Instead of doing this shit
 We Can simple do this now
 <pre>$app->apiResoruce('posts', 'PostController');</pre>
 
-However, you can also custom your routes as much as u want in Lararoute\Lumen\CustomRoutes.php
+However, you can also custom your routes as much as u want in Lararoutes\Lumen\CustomRoutes.php
 <pre>
     function apiResoruce($uri, $controller)
     {
