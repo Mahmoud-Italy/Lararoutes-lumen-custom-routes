@@ -1,0 +1,37 @@
+{
+    "name": "lararoutes/lumen-custom-routes",
+    "description": "A Simple Lumen package to help you customize your routes apiResources.",
+    "keywords": [
+        "lararoute",
+        "routes",
+        "resources",
+        "apiResources"
+        "lumen",
+        "larave",
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmoud.Ahmed",
+            "email": "mahmoud.italy@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2" 
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lararoutes\\Lumen\\CustomRoutes\\CustomRoutesServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lararoutes\\Lumen\\CustomRoutes\\": "src/"
+        }
+    }
+}
