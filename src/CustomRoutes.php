@@ -22,4 +22,15 @@ class CustomRoutes
       // feel free to add more
     }
 
+
+    function authResoruce($uri, $controller)
+    {
+      $this->app->post($uri.'/register', $controller.'@register');
+      $this->app->post($uri.'/login', $controller.'@login');
+      $this->app->post($uri.'/logout', $controller.'@logout');
+      $this->app->post($uri.'/refresh', $controller.'@refresh');
+      $this->app->post($uri.'/me', $controller.'@me');
+
+      // feel free to add more
+    }
 }
