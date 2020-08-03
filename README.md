@@ -61,7 +61,7 @@ Instead of doing this
   }
 </pre>
 
-You can just drop one line
+You can just drop one line like that
 <pre>$app->authResource('auth', 'AuthController');</pre>
 Just create new function authResource in Lararoutes\Lumen\CustomRoutes.php
 <pre>
