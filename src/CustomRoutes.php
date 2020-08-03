@@ -23,7 +23,7 @@ class CustomRoutes
     }
 
 
-    function authResoruce($uri, $controller)
+    function authResource($uri, $controller)
     {
       $this->app->post($uri.'/register', $controller.'@register');
       $this->app->post($uri.'/login', $controller.'@login');
