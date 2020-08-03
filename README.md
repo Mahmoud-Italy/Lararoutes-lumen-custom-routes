@@ -49,7 +49,7 @@ However, you can also custom your routes as much as u want in Lararoutes\Lumen\C
     }
 </pre>
 
-Another example for what you can do else
+Another example for what you can do else<br/>
 Instead of doing this
 <pre>
   $router->group(['prefix' => 'auth'], function ($router) {
@@ -61,11 +61,11 @@ Instead of doing this
   }
 </pre>
 
-You can do this now
+You can just drop one line
 <pre>$app->authResource('auth', 'AuthController');</pre>
 Just create new function authResource in Lararoutes\Lumen\CustomRoutes.php
 <pre>
-  function authResoruce($uri, $controller)
+  function authResource($uri, $controller)
     {
       $this->app->post($uri.'/register', $controller.'@register');
       $this->app->post($uri.'/login', $controller.'@login');
