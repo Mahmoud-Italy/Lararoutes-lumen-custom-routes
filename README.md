@@ -31,7 +31,7 @@ Instead of doing this shit
   $router->delete('posts/{id}', 'PostController@destroy');
 </pre>
 
-We Can simple do this now
+We can simple do this now
 <pre>$app->apiResource('posts', 'PostController');</pre>
 
 However, you can also custom your routes as much as u want in Lararoutes\Lumen\CustomRoutes.php
@@ -48,6 +48,33 @@ However, you can also custom your routes as much as u want in Lararoutes\Lumen\C
 
     }
 </pre>
+
+Another example for what you can do else
+Instead of doing this
+<pre>
+  $router->group(['prefix' => 'auth'], function ($router) {
+    $router->post('resister', 'AuthController@register');
+    $router->post('login', 'AuthController@login');
+    $router->post('logout', 'AuthController@logout');
+    $router->post('refresh', 'AuthController@refresh');
+    $router->get('me', 'AuthController@me');
+  }
+</pre>
+
+You can do this now
+<pre>$app->authResource('auth', 'AuthController');</pre>
+Just create new function authResource in Lararoutes\Lumen\CustomRoutes.php
+<pre>
+  function authResoruce($uri, $controller)
+    {
+      $this->app->post($uri.'/register', $controller.'@register');
+      $this->app->post($uri.'/login', $controller.'@login');
+      $this->app->post($uri.'/logout', $controller.'@logout');
+      $this->app->post($uri.'/refresh', $controller.'@refresh');
+      $this->app->post($uri.'/me', $controller.'@me');
+    }
+</pre>
+You are welcome :)
 
 # Credits
 
